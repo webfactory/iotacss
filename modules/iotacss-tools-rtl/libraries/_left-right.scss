@@ -1,3 +1,5 @@
+@use '../iotacss-tools-core/tools.core' as *;
+
 @mixin iota-left($value) {
   #{_iota-direction(left)}: $value;
 }

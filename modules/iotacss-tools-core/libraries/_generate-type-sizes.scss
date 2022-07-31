@@ -1,3 +1,5 @@
+@use '../../iotacss-tools-core/tools.core' as *;
+
 @mixin _iota-generate-type-sizes($values, $breakpoints) {
 
   @if type-of($values) == 'map' {

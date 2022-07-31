@@ -1,3 +1,5 @@
+@use '../iotacss-tools-core/tools.core' as *;
+
 @mixin iota-align-content($value) {
   @include _iota-direction-property(align-content, $value, false);
 }

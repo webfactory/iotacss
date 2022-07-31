@@ -1,3 +1,5 @@
+@use '../iotacss-tools-core/tools.core' as *;
+
 @mixin iota-border-left($value) {
   border-#{_iota-direction(left)}: $value;
 }

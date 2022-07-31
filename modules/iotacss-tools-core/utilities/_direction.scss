@@ -1,3 +1,7 @@
+@use 'sass:map';
+@use 'sass:string';
+@use '../../iotacss-settings-core/settings.core' as *;
+
 @function _iota-direction($direction) {
   $options: (
     'ltr'       : 'rtl',
@@ -9,10 +13,10 @@
   );
 
   @if ($iota-global-rtl == true) {
-    @if map-has-key($options, $direction) {
-      @return unquote(map-get($options, $direction));
+    @if map.has-key($options, $direction) {
+      @return string.unquote(map.get($options, $direction));
     }
   }
 
-  @return unquote($direction);
+  @return string.unquote($direction);
 }

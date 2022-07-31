@@ -1,3 +1,6 @@
+@use '../../iotacss-tools-core/utilities/breakpoint' as *;
+@use '../../iotacss-tools-core/utilities/direction' as *;
+
 @mixin _iota-generate-unit(
   $property,
   $suffix,

@@ -1,3 +1,5 @@
+@use '../iotacss-settings-core/settings.core' as *;
+
 //  Align Items Utility
 
 
@@ -84,4 +86,3 @@ $iota-utils-align-items-var-ai: $iota-global-utilities-namespace + $iota-utils-a
   }
 
 }
-

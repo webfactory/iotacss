@@ -1,26 +1,26 @@
 $iota-tools-core: true;
 
-@import './validators/is-map';
-@import './validators/is-number';
-@import './validators/is-list-child';
-@import './validators/contains-falsy';
-@import './validators/map-contains-null';
+@use './validators/is-map';
+@use './validators/is-number';
+@use './validators/is-list-child';
+@use './validators/contains-falsy';
+@use './validators/map-contains-null';
 
-@import './utilities/map-index';
-@import './utilities/direction';
-@import './utilities/breakpoint';
-@import './utilities/equalize-map';
-@import './utilities/negative-unit';
-@import './utilities/cast-breakpoint';
-@import './utilities/spacing-property';
-@import './utilities/compact-shorthand';
-@import './utilities/extract-type-sizes';
-@import './utilities/generate-spacing-classes';
-@import './utilities/generate-spacing-responsive-classes';
+@use './utilities/map-index';
+@use './utilities/direction';
+@use './utilities/breakpoint';
+@use './utilities/equalize-map';
+@use './utilities/negative-unit';
+@use './utilities/cast-breakpoint';
+@use './utilities/spacing-property';
+@use './utilities/compact-shorthand';
+@use './utilities/extract-type-sizes';
+@use './utilities/generate-spacing-classes';
+@use './utilities/generate-spacing-responsive-classes';
 
 
-@import './libraries/generate-unit';
-@import './libraries/generate-spacing';
-@import './libraries/direction-property';
-@import './libraries/generate-type-sizes';
-@import './libraries/directional-property';
+@use './libraries/generate-unit';
+@use './libraries/generate-spacing';
+@use './libraries/direction-property';
+@use './libraries/generate-type-sizes';
+@use './libraries/directional-property';

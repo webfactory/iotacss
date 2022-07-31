@@ -1,3 +1,5 @@
+@use '../../iotacss-tools-core/tools.core' as *;
+
 @mixin _iota-generate-spacing-responsive-classes($sizes, $suffix, $props...) {
   $spacing-responsive   : nth($props, 11);
   $spacing-breakpoints  : nth($props, 12);

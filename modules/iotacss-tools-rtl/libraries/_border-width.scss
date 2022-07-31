@@ -1,3 +1,5 @@
+@use '../iotacss-tools-core/tools.core' as *;
+
 @mixin iota-border-left-width($value) {
   @include _iota-directional-property(border, width, null null null $value);
 }

@@ -1,3 +1,5 @@
+@use '../../iotacss-tools-core/tools.core' as *;
+
 @mixin _iota-directional-property(
     $property,
     $suffix,

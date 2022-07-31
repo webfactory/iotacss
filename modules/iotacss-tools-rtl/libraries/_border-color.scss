@@ -1,3 +1,5 @@
+@use '../iotacss-tools-core/tools.core' as *;
+
 @mixin iota-border-left-color($value) {
   @include _iota-directional-property(border, color, null null null $value);
 }

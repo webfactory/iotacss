@@ -1,5 +1,8 @@
+@use 'sass:map';
+@use '../../iotacss-settings-core/settings.core' as *;
+
 @mixin _iota-breakpoint($size, $breakpoints: $iota-global-breakpoints) {
-  $breakpoint: map-get($breakpoints, $size);
+  $breakpoint: map.get($breakpoints, $size);
 
   @media #{$breakpoint} {
     @content;

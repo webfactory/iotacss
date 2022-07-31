@@ -1,3 +1,5 @@
+@use '../iotacss-tools-core/tools.core' as *;
+
 @mixin iota-border-top-left-radius($value) {
   border-top-#{_iota-direction(left)}-radius: $value;
 }
@@ -33,4 +35,3 @@
   @include iota-border-top-left-radius($value);
   @include iota-border-bottom-left-radius($value);
 }
-
